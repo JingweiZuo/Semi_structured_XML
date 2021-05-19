@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ax215="http://sql.java/xsd" xmlns:ax213="http://net.java/xsd" xmlns:ax211="http://io.java/xsd" xmlns:ns="http://service" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ax217="http://sax.xml.org/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" targetNamespace="http://service">
+    <wsdl:documentation>
+		Please Type your service description here
+	</wsdl:documentation>
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://sql.java/xsd">
+            <xs:complexType name="SQLException">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="SQLState" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="errorCode" type="xs:int"/>
+                    <xs:element minOccurs="0" name="nextException" nillable="true" type="ax215:SQLException"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://net.java/xsd">
+            <xs:complexType name="URISyntaxException">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="index" type="xs:int"/>
+                    <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="message" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="reason" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://io.java/xsd">
+            <xs:complexType name="IOException">
+                <xs:sequence/>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema xmlns:ax212="http://io.java/xsd" xmlns:ax214="http://net.java/xsd" xmlns:ax216="http://sql.java/xsd" xmlns:ax218="http://sax.xml.org/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service">
+            <xs:import namespace="http://io.java/xsd"/>
+            <xs:import namespace="http://net.java/xsd"/>
+            <xs:import namespace="http://sql.java/xsd"/>
+            <xs:import namespace="http://sax.xml.org/xsd"/>
+            <xs:element name="GetSongsByAuthorIOException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="IOException" nillable="true" type="ax212:IOException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetSongsByAuthorURISyntaxException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="URISyntaxException" nillable="true" type="ax214:URISyntaxException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetSongsByAuthorTransformerException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TransformerException" nillable="true" type="xs:anyType"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetSongsByAuthorSQLException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="SQLException" nillable="true" type="ax215:SQLException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetSongsByAuthorParserConfigurationException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="ParserConfigurationException" nillable="true" type="xs:anyType"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetSongsByAuthorSAXException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="SAXException" nillable="true" type="ax218:SAXException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="main">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="args" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getSongsByAuthor">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="artist" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getSongsByAuthorResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://sax.xml.org/xsd">
+            <xs:complexType name="SAXException">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="cause" nillable="true" type="xs:anyType"/>
+                    <xs:element minOccurs="0" name="exception" nillable="true"/>
+                    <xs:element minOccurs="0" name="message" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="getSongsByAuthorRequest">
+        <wsdl:part name="parameters" element="ns:getSongsByAuthor"/>
+    </wsdl:message>
+    <wsdl:message name="getSongsByAuthorResponse">
+        <wsdl:part name="parameters" element="ns:getSongsByAuthorResponse"/>
+    </wsdl:message>
+    <wsdl:message name="GetSongsByAuthorIOException">
+        <wsdl:part name="parameters" element="ns:GetSongsByAuthorIOException"/>
+    </wsdl:message>
+    <wsdl:message name="GetSongsByAuthorURISyntaxException">
+        <wsdl:part name="parameters" element="ns:GetSongsByAuthorURISyntaxException"/>
+    </wsdl:message>
+    <wsdl:message name="GetSongsByAuthorTransformerException">
+        <wsdl:part name="parameters" element="ns:GetSongsByAuthorTransformerException"/>
+    </wsdl:message>
+    <wsdl:message name="GetSongsByAuthorSQLException">
+        <wsdl:part name="parameters" element="ns:GetSongsByAuthorSQLException"/>
+    </wsdl:message>
+    <wsdl:message name="GetSongsByAuthorParserConfigurationException">
+        <wsdl:part name="parameters" element="ns:GetSongsByAuthorParserConfigurationException"/>
+    </wsdl:message>
+    <wsdl:message name="GetSongsByAuthorSAXException">
+        <wsdl:part name="parameters" element="ns:GetSongsByAuthorSAXException"/>
+    </wsdl:message>
+    <wsdl:message name="mainRequest">
+        <wsdl:part name="parameters" element="ns:main"/>
+    </wsdl:message>
+    <wsdl:portType name="GetSongsByAuthorPortType">
+        <wsdl:operation name="getSongsByAuthor">
+            <wsdl:input message="ns:getSongsByAuthorRequest" wsaw:Action="urn:getSongsByAuthor"/>
+            <wsdl:output message="ns:getSongsByAuthorResponse" wsaw:Action="urn:getSongsByAuthorResponse"/>
+            <wsdl:fault message="ns:GetSongsByAuthorIOException" name="GetSongsByAuthorIOException" wsaw:Action="urn:getSongsByAuthorGetSongsByAuthorIOException"/>
+            <wsdl:fault message="ns:GetSongsByAuthorURISyntaxException" name="GetSongsByAuthorURISyntaxException" wsaw:Action="urn:getSongsByAuthorGetSongsByAuthorURISyntaxException"/>
+            <wsdl:fault message="ns:GetSongsByAuthorTransformerException" name="GetSongsByAuthorTransformerException" wsaw:Action="urn:getSongsByAuthorGetSongsByAuthorTransformerException"/>
+            <wsdl:fault message="ns:GetSongsByAuthorSQLException" name="GetSongsByAuthorSQLException" wsaw:Action="urn:getSongsByAuthorGetSongsByAuthorSQLException"/>
+            <wsdl:fault message="ns:GetSongsByAuthorParserConfigurationException" name="GetSongsByAuthorParserConfigurationException" wsaw:Action="urn:getSongsByAuthorGetSongsByAuthorParserConfigurationException"/>
+            <wsdl:fault message="ns:GetSongsByAuthorSAXException" name="GetSongsByAuthorSAXException" wsaw:Action="urn:getSongsByAuthorGetSongsByAuthorSAXException"/>
+        </wsdl:operation>
+        <wsdl:operation name="main">
+            <wsdl:input message="ns:mainRequest" wsaw:Action="urn:main"/>
+            <wsdl:output message="ns:null" wsaw:Action="urn:mainResponse"/>
+            <wsdl:fault message="ns:GetSongsByAuthorIOException" name="GetSongsByAuthorIOException" wsaw:Action="urn:mainGetSongsByAuthorIOException"/>
+            <wsdl:fault message="ns:GetSongsByAuthorURISyntaxException" name="GetSongsByAuthorURISyntaxException" wsaw:Action="urn:mainGetSongsByAuthorURISyntaxException"/>
+            <wsdl:fault message="ns:GetSongsByAuthorTransformerException" name="GetSongsByAuthorTransformerException" wsaw:Action="urn:mainGetSongsByAuthorTransformerException"/>
+            <wsdl:fault message="ns:GetSongsByAuthorSQLException" name="GetSongsByAuthorSQLException" wsaw:Action="urn:mainGetSongsByAuthorSQLException"/>
+            <wsdl:fault message="ns:GetSongsByAuthorParserConfigurationException" name="GetSongsByAuthorParserConfigurationException" wsaw:Action="urn:mainGetSongsByAuthorParserConfigurationException"/>
+            <wsdl:fault message="ns:GetSongsByAuthorSAXException" name="GetSongsByAuthorSAXException" wsaw:Action="urn:mainGetSongsByAuthorSAXException"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="GetSongsByAuthorSoap11Binding" type="ns:GetSongsByAuthorPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="getSongsByAuthor">
+            <soap:operation soapAction="urn:getSongsByAuthor" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GetSongsByAuthorSQLException">
+                <soap:fault use="literal" name="GetSongsByAuthorSQLException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorURISyntaxException">
+                <soap:fault use="literal" name="GetSongsByAuthorURISyntaxException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorTransformerException">
+                <soap:fault use="literal" name="GetSongsByAuthorTransformerException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorIOException">
+                <soap:fault use="literal" name="GetSongsByAuthorIOException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorParserConfigurationException">
+                <soap:fault use="literal" name="GetSongsByAuthorParserConfigurationException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorSAXException">
+                <soap:fault use="literal" name="GetSongsByAuthorSAXException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="main">
+            <soap:operation soapAction="urn:main" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GetSongsByAuthorSQLException">
+                <soap:fault use="literal" name="GetSongsByAuthorSQLException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorURISyntaxException">
+                <soap:fault use="literal" name="GetSongsByAuthorURISyntaxException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorTransformerException">
+                <soap:fault use="literal" name="GetSongsByAuthorTransformerException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorIOException">
+                <soap:fault use="literal" name="GetSongsByAuthorIOException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorParserConfigurationException">
+                <soap:fault use="literal" name="GetSongsByAuthorParserConfigurationException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorSAXException">
+                <soap:fault use="literal" name="GetSongsByAuthorSAXException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="GetSongsByAuthorSoap12Binding" type="ns:GetSongsByAuthorPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="getSongsByAuthor">
+            <soap12:operation soapAction="urn:getSongsByAuthor" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GetSongsByAuthorSQLException">
+                <soap12:fault use="literal" name="GetSongsByAuthorSQLException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorURISyntaxException">
+                <soap12:fault use="literal" name="GetSongsByAuthorURISyntaxException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorTransformerException">
+                <soap12:fault use="literal" name="GetSongsByAuthorTransformerException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorIOException">
+                <soap12:fault use="literal" name="GetSongsByAuthorIOException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorParserConfigurationException">
+                <soap12:fault use="literal" name="GetSongsByAuthorParserConfigurationException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorSAXException">
+                <soap12:fault use="literal" name="GetSongsByAuthorSAXException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="main">
+            <soap12:operation soapAction="urn:main" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GetSongsByAuthorSQLException">
+                <soap12:fault use="literal" name="GetSongsByAuthorSQLException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorURISyntaxException">
+                <soap12:fault use="literal" name="GetSongsByAuthorURISyntaxException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorTransformerException">
+                <soap12:fault use="literal" name="GetSongsByAuthorTransformerException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorIOException">
+                <soap12:fault use="literal" name="GetSongsByAuthorIOException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorParserConfigurationException">
+                <soap12:fault use="literal" name="GetSongsByAuthorParserConfigurationException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetSongsByAuthorSAXException">
+                <soap12:fault use="literal" name="GetSongsByAuthorSAXException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="GetSongsByAuthorHttpBinding" type="ns:GetSongsByAuthorPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="getSongsByAuthor">
+            <http:operation location="getSongsByAuthor"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+            <wsdl:fault name="GetSongsByAuthorSQLException"/>
+            <wsdl:fault name="GetSongsByAuthorURISyntaxException"/>
+            <wsdl:fault name="GetSongsByAuthorTransformerException"/>
+            <wsdl:fault name="GetSongsByAuthorIOException"/>
+            <wsdl:fault name="GetSongsByAuthorParserConfigurationException"/>
+            <wsdl:fault name="GetSongsByAuthorSAXException"/>
+        </wsdl:operation>
+        <wsdl:operation name="main">
+            <http:operation location="main"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+            <wsdl:fault name="GetSongsByAuthorSQLException"/>
+            <wsdl:fault name="GetSongsByAuthorURISyntaxException"/>
+            <wsdl:fault name="GetSongsByAuthorTransformerException"/>
+            <wsdl:fault name="GetSongsByAuthorIOException"/>
+            <wsdl:fault name="GetSongsByAuthorParserConfigurationException"/>
+            <wsdl:fault name="GetSongsByAuthorSAXException"/>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="GetSongsByAuthor">
+        <wsdl:port name="GetSongsByAuthorHttpSoap11Endpoint" binding="ns:GetSongsByAuthorSoap11Binding">
+            <soap:address location="http://localhost:8080/Projet_test/services/GetSongsByAuthor.GetSongsByAuthorHttpSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="GetSongsByAuthorHttpSoap12Endpoint" binding="ns:GetSongsByAuthorSoap12Binding">
+            <soap12:address location="http://localhost:8080/Projet_test/services/GetSongsByAuthor.GetSongsByAuthorHttpSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="GetSongsByAuthorHttpEndpoint" binding="ns:GetSongsByAuthorHttpBinding">
+            <http:address location="http://localhost:8080/Projet_test/services/GetSongsByAuthor.GetSongsByAuthorHttpEndpoint/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

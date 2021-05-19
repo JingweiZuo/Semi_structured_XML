@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Brainz_2 xmlns:n="http://musicbrainz.org/ns/mmd-2.0#" xmlns:ext="http://musicbrainz.org/ns/ext#-2.0">
+<Album>
+<Album_title>Alma mía</Album_title>
+<Artist>Wason</Artist>
+</Album>
+<Album>
+<Album_title>Pa' que me mires (remix)</Album_title>
+<Artist>Wason Brazobán</Artist>
+</Album>
+</Brainz_2>

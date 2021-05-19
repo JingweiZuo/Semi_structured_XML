@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="46e88dd8-13a9-401f-8f73-f0ebc91bb8a5" activeEnvironment="Default" name="GetAlbumsByAuthor" resourceRoot="" soapui-version="5.4.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="6f9ac72f-8c7b-4be3-87be-ae7b842fb223" wsaVersion="NONE" name="GetAlbumByAuthorSoap12Binding" type="wsdl" bindingName="{http://service}GetAlbumByAuthorSoap12Binding" soapVersion="1_2" anonymous="optional" definition="file:/Users/Jingwei/Desktop/Projet_XML/SOAPUI_test/GetAlbumByAuthor.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8080/Projet_test/services/GetAlbumByAuthor.GetAlbumByAuthorHttpSoap12Endpoint/</con:endpoint></con:endpoints><con:operation id="ffed7663-f08d-46f4-96cf-3fa0841271e2" isOneWay="false" action="urn:getAlbumsByAuthor" name="getAlbumsByAuthor" bindingOperationName="getAlbumsByAuthor" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="10ab6ebb-1cb4-46dc-8fb4-83abc0740141" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/Projet_test/services/GetAlbumByAuthor.GetAlbumByAuthorHttpSoap12Endpoint/</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://service">
+   <soap:Header/>
+   <soap:Body>
+      <ser:getAlbumsByAuthor>
+         <!--Optional:-->
+         <ser:artist>?</ser:artist>
+      </ser:getAlbumsByAuthor>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:getAlbumsByAuthor"/></con:call></con:operation><con:operation id="b5f442e9-0c14-401c-aba3-e2c5be878090" isOneWay="false" action="urn:main" name="main" bindingOperationName="main" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="48ef48ef-5e3a-4576-8ec5-7d0e21aefd8f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/Projet_test/services/GetAlbumByAuthor.GetAlbumByAuthorHttpSoap12Endpoint/</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://service">
+   <soap:Header/>
+   <soap:Body>
+      <ser:main>
+         <!--Zero or more repetitions:-->
+         <ser:args>?</ser:args>
+      </ser:main>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:main"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="1de138f6-ac84-4fd2-823b-a2f2413d850f" wsaVersion="NONE" name="GetAlbumByAuthorSoap11Binding" type="wsdl" bindingName="{http://service}GetAlbumByAuthorSoap11Binding" soapVersion="1_1" anonymous="optional" definition="file:/Users/Jingwei/Desktop/Projet_XML/SOAPUI_test/GetAlbumByAuthor.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/Users/Jingwei/Desktop/Projet_XML/SOAPUI_test/GetAlbumByAuthor.wsdl"><con:part><con:url>file:/Users/Jingwei/Desktop/Projet_XML/SOAPUI_test/GetAlbumByAuthor.wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://service" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ax27="http://sax.xml.org/xsd" xmlns:ax23="http://net.java/xsd" xmlns:ns="http://service" xmlns:ax25="http://sql.java/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ax21="http://io.java/xsd" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl">
+  <wsdl:documentation>Please Type your service description here</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://sql.java/xsd">
+      <xs:complexType name="SQLException">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="SQLState" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="errorCode" type="xs:int"/>
+          <xs:element minOccurs="0" name="nextException" nillable="true" type="ax25:SQLException"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://net.java/xsd">
+      <xs:complexType name="URISyntaxException">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="index" type="xs:int"/>
+          <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="message" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="reason" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://io.java/xsd">
+      <xs:complexType name="IOException">
+        <xs:sequence/>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service" xmlns:ax22="http://io.java/xsd" xmlns:ax24="http://net.java/xsd" xmlns:ax26="http://sql.java/xsd" xmlns:ax28="http://sax.xml.org/xsd">
+      <xs:import namespace="http://io.java/xsd"/>
+      <xs:import namespace="http://net.java/xsd"/>
+      <xs:import namespace="http://sql.java/xsd"/>
+      <xs:import namespace="http://sax.xml.org/xsd"/>
+      <xs:element name="GetAlbumByAuthorIOException">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="IOException" nillable="true" type="ax22:IOException"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAlbumByAuthorURISyntaxException">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="URISyntaxException" nillable="true" type="ax24:URISyntaxException"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAlbumByAuthorTransformerException">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TransformerException" nillable="true" type="xs:anyType"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAlbumByAuthorSQLException">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SQLException" nillable="true" type="ax26:SQLException"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAlbumByAuthorParserConfigurationException">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ParserConfigurationException" nillable="true" type="xs:anyType"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetAlbumByAuthorSAXException">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SAXException" nillable="true" type="ax28:SAXException"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="main">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="args" nillable="true" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlbumsByAuthor">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="artist" nillable="true" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlbumsByAuthorResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://sax.xml.org/xsd">
+      <xs:complexType name="SAXException">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="cause" nillable="true" type="xs:anyType"/>
+          <xs:element minOccurs="0" name="exception" nillable="true"/>
+          <xs:element minOccurs="0" name="message" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="mainRequest">
+    <wsdl:part name="parameters" element="ns:main"/>
+  </wsdl:message>
+  <wsdl:message name="GetAlbumByAuthorIOException">
+    <wsdl:part name="parameters" element="ns:GetAlbumByAuthorIOException"/>
+  </wsdl:message>
+  <wsdl:message name="GetAlbumByAuthorURISyntaxException">
+    <wsdl:part name="parameters" element="ns:GetAlbumByAuthorURISyntaxException"/>
+  </wsdl:message>
+  <wsdl:message name="GetAlbumByAuthorTransformerException">
+    <wsdl:part name="parameters" element="ns:GetAlbumByAuthorTransformerException"/>
+  </wsdl:message>
+  <wsdl:message name="GetAlbumByAuthorSQLException">
+    <wsdl:part name="parameters" element="ns:GetAlbumByAuthorSQLException"/>
+  </wsdl:message>
+  <wsdl:message name="GetAlbumByAuthorParserConfigurationException">
+    <wsdl:part name="parameters" element="ns:GetAlbumByAuthorParserConfigurationException"/>
+  </wsdl:message>
+  <wsdl:message name="GetAlbumByAuthorSAXException">
+    <wsdl:part name="parameters" element="ns:GetAlbumByAuthorSAXException"/>
+  </wsdl:message>
+  <wsdl:message name="getAlbumsByAuthorRequest">
+    <wsdl:part name="parameters" element="ns:getAlbumsByAuthor"/>
+  </wsdl:message>
+  <wsdl:message name="getAlbumsByAuthorResponse">
+    <wsdl:part name="parameters" element="ns:getAlbumsByAuthorResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="GetAlbumByAuthorPortType">
+    <wsdl:operation name="main">
+      <wsdl:input message="ns:mainRequest" wsaw:Action="urn:main"/>
+      <wsdl:output message="ns:null" wsaw:Action="urn:mainResponse"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorIOException" name="GetAlbumByAuthorIOException" wsaw:Action="urn:mainGetAlbumByAuthorIOException"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorURISyntaxException" name="GetAlbumByAuthorURISyntaxException" wsaw:Action="urn:mainGetAlbumByAuthorURISyntaxException"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorTransformerException" name="GetAlbumByAuthorTransformerException" wsaw:Action="urn:mainGetAlbumByAuthorTransformerException"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorSQLException" name="GetAlbumByAuthorSQLException" wsaw:Action="urn:mainGetAlbumByAuthorSQLException"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorParserConfigurationException" name="GetAlbumByAuthorParserConfigurationException" wsaw:Action="urn:mainGetAlbumByAuthorParserConfigurationException"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorSAXException" name="GetAlbumByAuthorSAXException" wsaw:Action="urn:mainGetAlbumByAuthorSAXException"/>
+    </wsdl:operation>
+    <wsdl:operation name="getAlbumsByAuthor">
+      <wsdl:input message="ns:getAlbumsByAuthorRequest" wsaw:Action="urn:getAlbumsByAuthor"/>
+      <wsdl:output message="ns:getAlbumsByAuthorResponse" wsaw:Action="urn:getAlbumsByAuthorResponse"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorIOException" name="GetAlbumByAuthorIOException" wsaw:Action="urn:getAlbumsByAuthorGetAlbumByAuthorIOException"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorURISyntaxException" name="GetAlbumByAuthorURISyntaxException" wsaw:Action="urn:getAlbumsByAuthorGetAlbumByAuthorURISyntaxException"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorTransformerException" name="GetAlbumByAuthorTransformerException" wsaw:Action="urn:getAlbumsByAuthorGetAlbumByAuthorTransformerException"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorSQLException" name="GetAlbumByAuthorSQLException" wsaw:Action="urn:getAlbumsByAuthorGetAlbumByAuthorSQLException"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorParserConfigurationException" name="GetAlbumByAuthorParserConfigurationException" wsaw:Action="urn:getAlbumsByAuthorGetAlbumByAuthorParserConfigurationException"/>
+      <wsdl:fault message="ns:GetAlbumByAuthorSAXException" name="GetAlbumByAuthorSAXException" wsaw:Action="urn:getAlbumsByAuthorGetAlbumByAuthorSAXException"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GetAlbumByAuthorSoap11Binding" type="ns:GetAlbumByAuthorPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="main">
+      <soap:operation soapAction="urn:main" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="GetAlbumByAuthorTransformerException">
+        <soap:fault use="literal" name="GetAlbumByAuthorTransformerException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorURISyntaxException">
+        <soap:fault use="literal" name="GetAlbumByAuthorURISyntaxException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorSQLException">
+        <soap:fault use="literal" name="GetAlbumByAuthorSQLException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorSAXException">
+        <soap:fault use="literal" name="GetAlbumByAuthorSAXException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorIOException">
+        <soap:fault use="literal" name="GetAlbumByAuthorIOException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorParserConfigurationException">
+        <soap:fault use="literal" name="GetAlbumByAuthorParserConfigurationException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAlbumsByAuthor">
+      <soap:operation soapAction="urn:getAlbumsByAuthor" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="GetAlbumByAuthorTransformerException">
+        <soap:fault use="literal" name="GetAlbumByAuthorTransformerException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorURISyntaxException">
+        <soap:fault use="literal" name="GetAlbumByAuthorURISyntaxException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorSQLException">
+        <soap:fault use="literal" name="GetAlbumByAuthorSQLException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorSAXException">
+        <soap:fault use="literal" name="GetAlbumByAuthorSAXException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorIOException">
+        <soap:fault use="literal" name="GetAlbumByAuthorIOException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorParserConfigurationException">
+        <soap:fault use="literal" name="GetAlbumByAuthorParserConfigurationException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GetAlbumByAuthorSoap12Binding" type="ns:GetAlbumByAuthorPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="main">
+      <soap12:operation soapAction="urn:main" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="GetAlbumByAuthorTransformerException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorTransformerException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorURISyntaxException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorURISyntaxException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorSQLException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorSQLException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorSAXException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorSAXException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorIOException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorIOException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorParserConfigurationException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorParserConfigurationException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAlbumsByAuthor">
+      <soap12:operation soapAction="urn:getAlbumsByAuthor" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="GetAlbumByAuthorTransformerException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorTransformerException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorURISyntaxException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorURISyntaxException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorSQLException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorSQLException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorSAXException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorSAXException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorIOException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorIOException"/>
+      </wsdl:fault>
+      <wsdl:fault name="GetAlbumByAuthorParserConfigurationException">
+        <soap12:fault use="literal" name="GetAlbumByAuthorParserConfigurationException"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GetAlbumByAuthorHttpBinding" type="ns:GetAlbumByAuthorPortType">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="main">
+      <http:operation location="main"/>
+      <wsdl:input>
+        <mime:content type="application/xml" part="parameters"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content type="application/xml" part="parameters"/>
+      </wsdl:output>
+      <wsdl:fault name="GetAlbumByAuthorTransformerException"/>
+      <wsdl:fault name="GetAlbumByAuthorURISyntaxException"/>
+      <wsdl:fault name="GetAlbumByAuthorSQLException"/>
+      <wsdl:fault name="GetAlbumByAuthorSAXException"/>
+      <wsdl:fault name="GetAlbumByAuthorIOException"/>
+      <wsdl:fault name="GetAlbumByAuthorParserConfigurationException"/>
+    </wsdl:operation>
+    <wsdl:operation name="getAlbumsByAuthor">
+      <http:operation location="getAlbumsByAuthor"/>
+      <wsdl:input>
+        <mime:content type="application/xml" part="parameters"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content type="application/xml" part="parameters"/>
+      </wsdl:output>
+      <wsdl:fault name="GetAlbumByAuthorTransformerException"/>
+      <wsdl:fault name="GetAlbumByAuthorURISyntaxException"/>
+      <wsdl:fault name="GetAlbumByAuthorSQLException"/>
+      <wsdl:fault name="GetAlbumByAuthorSAXException"/>
+      <wsdl:fault name="GetAlbumByAuthorIOException"/>
+      <wsdl:fault name="GetAlbumByAuthorParserConfigurationException"/>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GetAlbumByAuthor">
+    <wsdl:port name="GetAlbumByAuthorHttpSoap11Endpoint" binding="ns:GetAlbumByAuthorSoap11Binding">
+      <soap:address location="http://localhost:8080/Projet_test/services/GetAlbumByAuthor.GetAlbumByAuthorHttpSoap11Endpoint/"/>
+    </wsdl:port>
+    <wsdl:port name="GetAlbumByAuthorHttpSoap12Endpoint" binding="ns:GetAlbumByAuthorSoap12Binding">
+      <soap12:address location="http://localhost:8080/Projet_test/services/GetAlbumByAuthor.GetAlbumByAuthorHttpSoap12Endpoint/"/>
+    </wsdl:port>
+    <wsdl:port name="GetAlbumByAuthorHttpEndpoint" binding="ns:GetAlbumByAuthorHttpBinding">
+      <http:address location="http://localhost:8080/Projet_test/services/GetAlbumByAuthor.GetAlbumByAuthorHttpEndpoint/"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/Projet_test/services/GetAlbumByAuthor.GetAlbumByAuthorHttpSoap11Endpoint/</con:endpoint></con:endpoints><con:operation id="cc87e381-03c2-461f-94c2-335ec8e344d3" isOneWay="false" action="urn:getAlbumsByAuthor" name="getAlbumsByAuthor" bindingOperationName="getAlbumsByAuthor" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="91df89b4-e463-49a6-be2b-89619a8be1b7" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/Projet_test/services/GetAlbumByAuthor.GetAlbumByAuthorHttpSoap11Endpoint/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:getAlbumsByAuthor>
+         <!--Optional:-->
+         <ser:artist>Wang</ser:artist>
+      </ser:getAlbumsByAuthor>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:getAlbumsByAuthor"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="bf87f2d7-6bf3-4a5a-a8d0-72461b3593a3" isOneWay="false" action="urn:main" name="main" bindingOperationName="main" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="d68e9270-afbb-483e-88a4-e8aa03b90895" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/Projet_test/services/GetAlbumByAuthor.GetAlbumByAuthorHttpSoap11Endpoint/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:main>
+         <!--Zero or more repetitions:-->
+         <ser:args>?</ser:args>
+      </ser:main>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="urn:main"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

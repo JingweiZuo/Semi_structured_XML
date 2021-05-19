@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ax27="http://sax.xml.org/xsd" xmlns:ax23="http://net.java/xsd" xmlns:ns="http://service" xmlns:ax25="http://sql.java/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ax21="http://io.java/xsd" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" targetNamespace="http://service">
+    <wsdl:documentation>
+		Please Type your service description here
+	</wsdl:documentation>
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://sql.java/xsd">
+            <xs:complexType name="SQLException">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="SQLState" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="errorCode" type="xs:int"/>
+                    <xs:element minOccurs="0" name="nextException" nillable="true" type="ax25:SQLException"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://net.java/xsd">
+            <xs:complexType name="URISyntaxException">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="index" type="xs:int"/>
+                    <xs:element minOccurs="0" name="input" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="message" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="reason" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://io.java/xsd">
+            <xs:complexType name="IOException">
+                <xs:sequence/>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema xmlns:ax22="http://io.java/xsd" xmlns:ax24="http://net.java/xsd" xmlns:ax26="http://sql.java/xsd" xmlns:ax28="http://sax.xml.org/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service">
+            <xs:import namespace="http://io.java/xsd"/>
+            <xs:import namespace="http://net.java/xsd"/>
+            <xs:import namespace="http://sql.java/xsd"/>
+            <xs:import namespace="http://sax.xml.org/xsd"/>
+            <xs:element name="GetInfoBySongIOException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="IOException" nillable="true" type="ax22:IOException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetInfoBySongURISyntaxException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="URISyntaxException" nillable="true" type="ax24:URISyntaxException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetInfoBySongTransformerException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="TransformerException" nillable="true" type="xs:anyType"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetInfoBySongSQLException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="SQLException" nillable="true" type="ax26:SQLException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetInfoBySongParserConfigurationException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="ParserConfigurationException" nillable="true" type="xs:anyType"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetInfoBySongSAXException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="SAXException" nillable="true" type="ax28:SAXException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="main">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="args" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getInfoBySong">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="song_title" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getInfoBySongResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://sax.xml.org/xsd">
+            <xs:complexType name="SAXException">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="cause" nillable="true" type="xs:anyType"/>
+                    <xs:element minOccurs="0" name="exception" nillable="true"/>
+                    <xs:element minOccurs="0" name="message" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="getInfoBySongRequest">
+        <wsdl:part name="parameters" element="ns:getInfoBySong"/>
+    </wsdl:message>
+    <wsdl:message name="getInfoBySongResponse">
+        <wsdl:part name="parameters" element="ns:getInfoBySongResponse"/>
+    </wsdl:message>
+    <wsdl:message name="GetInfoBySongIOException">
+        <wsdl:part name="parameters" element="ns:GetInfoBySongIOException"/>
+    </wsdl:message>
+    <wsdl:message name="GetInfoBySongURISyntaxException">
+        <wsdl:part name="parameters" element="ns:GetInfoBySongURISyntaxException"/>
+    </wsdl:message>
+    <wsdl:message name="GetInfoBySongTransformerException">
+        <wsdl:part name="parameters" element="ns:GetInfoBySongTransformerException"/>
+    </wsdl:message>
+    <wsdl:message name="GetInfoBySongSQLException">
+        <wsdl:part name="parameters" element="ns:GetInfoBySongSQLException"/>
+    </wsdl:message>
+    <wsdl:message name="GetInfoBySongParserConfigurationException">
+        <wsdl:part name="parameters" element="ns:GetInfoBySongParserConfigurationException"/>
+    </wsdl:message>
+    <wsdl:message name="GetInfoBySongSAXException">
+        <wsdl:part name="parameters" element="ns:GetInfoBySongSAXException"/>
+    </wsdl:message>
+    <wsdl:message name="mainRequest">
+        <wsdl:part name="parameters" element="ns:main"/>
+    </wsdl:message>
+    <wsdl:portType name="GetInfoBySongPortType">
+        <wsdl:operation name="getInfoBySong">
+            <wsdl:input message="ns:getInfoBySongRequest" wsaw:Action="urn:getInfoBySong"/>
+            <wsdl:output message="ns:getInfoBySongResponse" wsaw:Action="urn:getInfoBySongResponse"/>
+            <wsdl:fault message="ns:GetInfoBySongIOException" name="GetInfoBySongIOException" wsaw:Action="urn:getInfoBySongGetInfoBySongIOException"/>
+            <wsdl:fault message="ns:GetInfoBySongURISyntaxException" name="GetInfoBySongURISyntaxException" wsaw:Action="urn:getInfoBySongGetInfoBySongURISyntaxException"/>
+            <wsdl:fault message="ns:GetInfoBySongTransformerException" name="GetInfoBySongTransformerException" wsaw:Action="urn:getInfoBySongGetInfoBySongTransformerException"/>
+            <wsdl:fault message="ns:GetInfoBySongSQLException" name="GetInfoBySongSQLException" wsaw:Action="urn:getInfoBySongGetInfoBySongSQLException"/>
+            <wsdl:fault message="ns:GetInfoBySongParserConfigurationException" name="GetInfoBySongParserConfigurationException" wsaw:Action="urn:getInfoBySongGetInfoBySongParserConfigurationException"/>
+            <wsdl:fault message="ns:GetInfoBySongSAXException" name="GetInfoBySongSAXException" wsaw:Action="urn:getInfoBySongGetInfoBySongSAXException"/>
+        </wsdl:operation>
+        <wsdl:operation name="main">
+            <wsdl:input message="ns:mainRequest" wsaw:Action="urn:main"/>
+            <wsdl:output message="ns:null" wsaw:Action="urn:mainResponse"/>
+            <wsdl:fault message="ns:GetInfoBySongIOException" name="GetInfoBySongIOException" wsaw:Action="urn:mainGetInfoBySongIOException"/>
+            <wsdl:fault message="ns:GetInfoBySongURISyntaxException" name="GetInfoBySongURISyntaxException" wsaw:Action="urn:mainGetInfoBySongURISyntaxException"/>
+            <wsdl:fault message="ns:GetInfoBySongTransformerException" name="GetInfoBySongTransformerException" wsaw:Action="urn:mainGetInfoBySongTransformerException"/>
+            <wsdl:fault message="ns:GetInfoBySongSQLException" name="GetInfoBySongSQLException" wsaw:Action="urn:mainGetInfoBySongSQLException"/>
+            <wsdl:fault message="ns:GetInfoBySongParserConfigurationException" name="GetInfoBySongParserConfigurationException" wsaw:Action="urn:mainGetInfoBySongParserConfigurationException"/>
+            <wsdl:fault message="ns:GetInfoBySongSAXException" name="GetInfoBySongSAXException" wsaw:Action="urn:mainGetInfoBySongSAXException"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="GetInfoBySongSoap11Binding" type="ns:GetInfoBySongPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="getInfoBySong">
+            <soap:operation soapAction="urn:getInfoBySong" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GetInfoBySongIOException">
+                <soap:fault use="literal" name="GetInfoBySongIOException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongSQLException">
+                <soap:fault use="literal" name="GetInfoBySongSQLException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongParserConfigurationException">
+                <soap:fault use="literal" name="GetInfoBySongParserConfigurationException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongSAXException">
+                <soap:fault use="literal" name="GetInfoBySongSAXException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongURISyntaxException">
+                <soap:fault use="literal" name="GetInfoBySongURISyntaxException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongTransformerException">
+                <soap:fault use="literal" name="GetInfoBySongTransformerException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="main">
+            <soap:operation soapAction="urn:main" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GetInfoBySongIOException">
+                <soap:fault use="literal" name="GetInfoBySongIOException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongSQLException">
+                <soap:fault use="literal" name="GetInfoBySongSQLException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongParserConfigurationException">
+                <soap:fault use="literal" name="GetInfoBySongParserConfigurationException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongSAXException">
+                <soap:fault use="literal" name="GetInfoBySongSAXException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongURISyntaxException">
+                <soap:fault use="literal" name="GetInfoBySongURISyntaxException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongTransformerException">
+                <soap:fault use="literal" name="GetInfoBySongTransformerException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="GetInfoBySongSoap12Binding" type="ns:GetInfoBySongPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="getInfoBySong">
+            <soap12:operation soapAction="urn:getInfoBySong" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GetInfoBySongIOException">
+                <soap12:fault use="literal" name="GetInfoBySongIOException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongSQLException">
+                <soap12:fault use="literal" name="GetInfoBySongSQLException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongParserConfigurationException">
+                <soap12:fault use="literal" name="GetInfoBySongParserConfigurationException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongSAXException">
+                <soap12:fault use="literal" name="GetInfoBySongSAXException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongURISyntaxException">
+                <soap12:fault use="literal" name="GetInfoBySongURISyntaxException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongTransformerException">
+                <soap12:fault use="literal" name="GetInfoBySongTransformerException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="main">
+            <soap12:operation soapAction="urn:main" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GetInfoBySongIOException">
+                <soap12:fault use="literal" name="GetInfoBySongIOException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongSQLException">
+                <soap12:fault use="literal" name="GetInfoBySongSQLException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongParserConfigurationException">
+                <soap12:fault use="literal" name="GetInfoBySongParserConfigurationException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongSAXException">
+                <soap12:fault use="literal" name="GetInfoBySongSAXException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongURISyntaxException">
+                <soap12:fault use="literal" name="GetInfoBySongURISyntaxException"/>
+            </wsdl:fault>
+            <wsdl:fault name="GetInfoBySongTransformerException">
+                <soap12:fault use="literal" name="GetInfoBySongTransformerException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="GetInfoBySongHttpBinding" type="ns:GetInfoBySongPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="getInfoBySong">
+            <http:operation location="getInfoBySong"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+            <wsdl:fault name="GetInfoBySongIOException"/>
+            <wsdl:fault name="GetInfoBySongSQLException"/>
+            <wsdl:fault name="GetInfoBySongParserConfigurationException"/>
+            <wsdl:fault name="GetInfoBySongSAXException"/>
+            <wsdl:fault name="GetInfoBySongURISyntaxException"/>
+            <wsdl:fault name="GetInfoBySongTransformerException"/>
+        </wsdl:operation>
+        <wsdl:operation name="main">
+            <http:operation location="main"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+            <wsdl:fault name="GetInfoBySongIOException"/>
+            <wsdl:fault name="GetInfoBySongSQLException"/>
+            <wsdl:fault name="GetInfoBySongParserConfigurationException"/>
+            <wsdl:fault name="GetInfoBySongSAXException"/>
+            <wsdl:fault name="GetInfoBySongURISyntaxException"/>
+            <wsdl:fault name="GetInfoBySongTransformerException"/>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="GetInfoBySong">
+        <wsdl:port name="GetInfoBySongHttpSoap11Endpoint" binding="ns:GetInfoBySongSoap11Binding">
+            <soap:address location="http://localhost:8080/Projet_test/services/GetInfoBySong.GetInfoBySongHttpSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="GetInfoBySongHttpSoap12Endpoint" binding="ns:GetInfoBySongSoap12Binding">
+            <soap12:address location="http://localhost:8080/Projet_test/services/GetInfoBySong.GetInfoBySongHttpSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="GetInfoBySongHttpEndpoint" binding="ns:GetInfoBySongHttpBinding">
+            <http:address location="http://localhost:8080/Projet_test/services/GetInfoBySong.GetInfoBySongHttpEndpoint/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

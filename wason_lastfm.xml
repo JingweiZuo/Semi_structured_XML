@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lfm status="ok">
+    <toptracks artist="Wason" page="1" perPage="50" totalPages="2" total="88">
+        <track rank="1">
+            <name>En un solo dia</name>
+            <playcount>432</playcount>
+            <listeners>139</listeners>
+            <url>https://www.last.fm/music/Wason/_/En+un+solo+dia</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="2">
+            <name>Pa&apos; que me mires</name>
+            <playcount>239</playcount>
+            <listeners>78</listeners>
+            <mbid>674a36e9-5323-4e68-ba55-5ff85e7e0b72</mbid>
+            <url>https://www.last.fm/music/Wason/_/Pa%27+que+me+mires</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="3">
+            <name>Loca conmigo</name>
+            <playcount>135</playcount>
+            <listeners>74</listeners>
+            <mbid>dfad71f0-7b7d-4b41-ad1c-87753aa69006</mbid>
+            <url>https://www.last.fm/music/Wason/_/Loca+conmigo</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="4">
+            <name>Sin por lo menos tocarte</name>
+            <playcount>151</playcount>
+            <listeners>53</listeners>
+            <mbid>ef291cde-66a3-4970-bca9-f0136ff733ab</mbid>
+            <url>https://www.last.fm/music/Wason/_/Sin+por+lo+menos+tocarte</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="5">
+            <name>El bombon</name>
+            <playcount>120</playcount>
+            <listeners>48</listeners>
+            <mbid>4bccc7c0-d3c4-454e-b5aa-1f21789617fb</mbid>
+            <url>https://www.last.fm/music/Wason/_/El+bombon</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="6">
+            <name>Que vida?</name>
+            <playcount>196</playcount>
+            <listeners>44</listeners>
+            <mbid>f60d55ce-27f6-4b89-89df-e0b9296ef978</mbid>
+            <url>https://www.last.fm/music/Wason/_/Que+vida%3F</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="7">
+            <name>Ven tu</name>
+            <playcount>54</playcount>
+            <listeners>31</listeners>
+            <mbid>316ca607-beb6-48ff-8f3d-048896b5b8a8</mbid>
+            <url>https://www.last.fm/music/Wason/_/Ven+tu</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="8">
+            <name>Le pido a dios</name>
+            <playcount>46</playcount>
+            <listeners>30</listeners>
+            <mbid>54bcce58-ed90-4595-80b6-513102a05e64</mbid>
+            <url>https://www.last.fm/music/Wason/_/Le+pido+a+dios</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="9">
+            <name>Sufriendo de amor</name>
+            <playcount>64</playcount>
+            <listeners>29</listeners>
+            <mbid>2624e762-2f6e-4de7-91b6-33db225f6143</mbid>
+            <url>https://www.last.fm/music/Wason/_/Sufriendo+de+amor</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="10">
+            <name>Con Las Manos Vacías</name>
+            <playcount>50</playcount>
+            <listeners>26</listeners>
+            <url>https://www.last.fm/music/Wason/_/Con+Las+Manos+Vac%C3%ADas</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="11">
+            <name>Que no hay mejor lugar</name>
+            <playcount>37</playcount>
+            <listeners>21</listeners>
+            <mbid>e0f43a64-9c64-437b-a61c-5d631182b4a8</mbid>
+            <url>https://www.last.fm/music/Wason/_/Que+no+hay+mejor+lugar</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="12">
+            <name>La casa sin ti</name>
+            <playcount>37</playcount>
+            <listeners>20</listeners>
+            <mbid>39b17b27-1dc5-44d4-810b-fc67623f2c00</mbid>
+            <url>https://www.last.fm/music/Wason/_/La+casa+sin+ti</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="13">
+            <name>Dormir solo</name>
+            <playcount>28</playcount>
+            <listeners>18</listeners>
+            <mbid>d9fb2e7d-3081-43c0-b7c3-41a7c190d197</mbid>
+            <url>https://www.last.fm/music/Wason/_/Dormir+solo</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="14">
+            <name>Sufriendo de amor (Vers. Bachata)</name>
+            <playcount>27</playcount>
+            <listeners>12</listeners>
+            <mbid>a3b5a2da-87f2-4906-86ef-b125c6de54ae</mbid>
+            <url>https://www.last.fm/music/Wason/_/Sufriendo+de+amor+(Vers.+Bachata)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="15">
+            <name>Sufriendo de amor - Vers. Bachata</name>
+            <playcount>19</playcount>
+            <listeners>11</listeners>
+            <url>https://www.last.fm/music/Wason/_/Sufriendo+de+amor+-+Vers.+Bachata</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="16">
+            <name>El Bombón</name>
+            <playcount>18</playcount>
+            <listeners>11</listeners>
+            <url>https://www.last.fm/music/Wason/_/El+Bomb%C3%B3n</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="17">
+            <name>Sin por lo menos tocarte - Vers. Pop</name>
+            <playcount>15</playcount>
+            <listeners>9</listeners>
+            <url>https://www.last.fm/music/Wason/_/Sin+por+lo+menos+tocarte+-+Vers.+Pop</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="18">
+            <name>Sin por lo menos tocarte (Vers. Pop)</name>
+            <playcount>22</playcount>
+            <listeners>8</listeners>
+            <mbid>17d01c5b-eea6-413e-81a3-28d1779da824</mbid>
+            <url>https://www.last.fm/music/Wason/_/Sin+por+lo+menos+tocarte+(Vers.+Pop)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="19">
+            <name>Con Las Manos Vacías - LMP</name>
+            <playcount>8</playcount>
+            <listeners>6</listeners>
+            <url>https://www.last.fm/music/Wason/_/Con+Las+Manos+Vac%C3%ADas+-+LMP</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="20">
+            <name>Amate Tu Misma</name>
+            <playcount>7</playcount>
+            <listeners>5</listeners>
+            <url>https://www.last.fm/music/Wason/_/Amate+Tu+Misma</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="21">
+            <name>En  un solo dia (Salsa)</name>
+            <playcount>17</playcount>
+            <listeners>4</listeners>
+            <url>https://www.last.fm/music/Wason/_/En++un+solo+dia+(Salsa)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="22">
+            <name>09 Le Pido A Dios (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>10</playcount>
+            <listeners>4</listeners>
+            <url>https://www.last.fm/music/Wason/_/09+Le+Pido+A+Dios+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="23">
+            <name>PA QUE ME MIRES</name>
+            <playcount>5</playcount>
+            <listeners>4</listeners>
+            <url>https://www.last.fm/music/Wason/_/PA+QUE+ME+MIRES</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="24">
+            <name>06 Pa&apos; Que Me Mires (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>9</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/06+Pa%27+Que+Me+Mires+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="25">
+            <name>10 Que Vida (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>8</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/10+Que+Vida+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="26">
+            <name>07 Dormir Solo (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>7</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/07+Dormir+Solo+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="27">
+            <name>08 Loca Conmigo (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>7</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/08+Loca+Conmigo+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="28">
+            <name>13 El Bombon  (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>7</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/13+El+Bombon++(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="29">
+            <name>04 Sin Por Lo Menos Tocarte (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>7</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/04+Sin+Por+Lo+Menos+Tocarte+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="30">
+            <name>05 Que No Hay Mejor Lugar (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>6</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/05+Que+No+Hay+Mejor+Lugar+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="31">
+            <name>11 Sin Por Lo Menos Tocarte (Pop Version) (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>6</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/11+Sin+Por+Lo+Menos+Tocarte+(Pop+Version)+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="32">
+            <name>02 La Casa Sin Ti (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>6</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/02+La+Casa+Sin+Ti+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="33">
+            <name>12 Sufriendo De Amor (Bachata Version) (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>6</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/12+Sufriendo+De+Amor+(Bachata+Version)+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="34">
+            <name>01 Sufriendo De Amor (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>5</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/01+Sufriendo+De+Amor+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="35">
+            <name>03 Ven Tu (Www.SofoCando.CoM) (Www.FotoFlow.NeT)</name>
+            <playcount>5</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/03+Ven+Tu+(Www.SofoCando.CoM)+(Www.FotoFlow.NeT)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="36">
+            <name>en un solo día</name>
+            <playcount>5</playcount>
+            <listeners>3</listeners>
+            <url>https://www.last.fm/music/Wason/_/en+un+solo+d%C3%ADa</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="37">
+            <name>W.A.S.O.N Feat. Rayitoz</name>
+            <playcount>10</playcount>
+            <listeners>2</listeners>
+            <url>https://www.last.fm/music/Wason/_/W.A.S.O.N+Feat.+Rayitoz</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="38">
+            <name>Grito de Tierra</name>
+            <playcount>7</playcount>
+            <listeners>2</listeners>
+            <url>https://www.last.fm/music/Wason/_/Grito+de+Tierra</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="39">
+            <name>Con Las Manos Vacias</name>
+            <playcount>7</playcount>
+            <listeners>2</listeners>
+            <url>https://www.last.fm/music/Wason/_/Con+Las+Manos+Vacias</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="40">
+            <name>Pa  Que Me Mires</name>
+            <playcount>2</playcount>
+            <listeners>2</listeners>
+            <url>https://www.last.fm/music/Wason/_/Pa++Que+Me+Mires</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="41">
+            <name>CON LAS MANOOS VACIAS</name>
+            <playcount>3</playcount>
+            <listeners>2</listeners>
+            <url>https://www.last.fm/music/Wason/_/CON+LAS+MANOOS+VACIAS</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="42">
+            <name>08 Loca Conmigo</name>
+            <playcount>2</playcount>
+            <listeners>2</listeners>
+            <url>https://www.last.fm/music/Wason/_/08+Loca+Conmigo</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="43">
+            <name>Sin Por Lo Menos Tocarte - LMP</name>
+            <playcount>2</playcount>
+            <listeners>2</listeners>
+            <url>https://www.last.fm/music/Wason/_/Sin+Por+Lo+Menos+Tocarte+-+LMP</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="44">
+            <name>SI POR LO MENOS TOCARTE NENA</name>
+            <playcount>2</playcount>
+            <listeners>2</listeners>
+            <url>https://www.last.fm/music/Wason/_/SI+POR+LO+MENOS+TOCARTE+NENA</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="45">
+            <name>Con la manos vacias</name>
+            <playcount>2</playcount>
+            <listeners>2</listeners>
+            <url>https://www.last.fm/music/Wason/_/Con+la+manos+vacias</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="46">
+            <name>En un solo día ft. Wason (Negros)</name>
+            <playcount>2</playcount>
+            <listeners>2</listeners>
+            <url>https://www.last.fm/music/Wason/_/En+un+solo+d%C3%ADa+ft.+Wason+(Negros)</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="47">
+            <name>No Hay Mejor Lugar</name>
+            <playcount>4</playcount>
+            <listeners>1</listeners>
+            <url>https://www.last.fm/music/Wason/_/No+Hay+Mejor+Lugar</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="48">
+            <name>Con Las Manos Vacнas</name>
+            <playcount>5</playcount>
+            <listeners>1</listeners>
+            <url>https://www.last.fm/music/Wason/_/Con+Las+Manos+Vac%D0%BDas</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="49">
+            <name>Sin Por Lo Menos Tocarte [Versi?n Pop] [Version]</name>
+            <playcount>3</playcount>
+            <listeners>1</listeners>
+            <url>https://www.last.fm/music/Wason/_/Sin+Por+Lo+Menos+Tocarte+%5BVersi%3Fn+Pop%5D+%5BVersion%5D</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+        <track rank="50">
+            <name>-En un solo dia</name>
+            <playcount>3</playcount>
+            <listeners>1</listeners>
+            <url>https://www.last.fm/music/Wason/_/-En+un+solo+dia</url>
+            <streamable>0</streamable>
+            <artist>
+                <name>Wason</name>
+                <mbid>4a2855e2-ccf2-4196-92d0-1bd8eb301a0b</mbid>
+                <url>https://www.last.fm/music/Wason</url>
+            </artist>
+            <image size="small"></image>
+            <image size="medium"></image>
+            <image size="large"></image>
+            <image size="extralarge"></image>
+        </track>
+    </toptracks>
+</lfm>
